@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+   
+  header {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+   
+  h1 {
+    font-size: 3em;
+  }
+   
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+   
+  .photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+  }
+   
+  img {
+    width: 300px;
+    height: 300px;
+  }
+   
+  .caption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    letter-spacing: 0.05rem;
+    color: darkgray;
+  }
