@@ -1,0 +1,5 @@
+def coffee_order(size, coffee_type):
+    print(f'Here is your {size} sized {coffee_type} coffee.')
+
+coffee_order("large", "Espresso")
+coffee_order("regular", "Cappuccino")
