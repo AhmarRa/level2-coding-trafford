@@ -10,7 +10,7 @@ def press_grind_beans():
         print("Grinding is about to begin" )
         coffee_is_grinding = True
 
-press_grind_beans() # the coffee is not grinding
-press_grind_beans() # the coffee is grinding
-press_grind_beans() # the coffee is not grinding
-press_grind_beans() # the coffee is grinding
+press_grind_beans() # output: the coffee is not grinding
+press_grind_beans() # output: the coffee is grinding
+press_grind_beans() # output: the coffee is not grinding
+press_grind_beans() # output: the coffee is grinding
